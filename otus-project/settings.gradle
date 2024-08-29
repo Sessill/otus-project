@@ -1,0 +1,13 @@
+rootProject.name = 'otus-project'
+
+includeBuild 'logistic-server'
+includeBuild 'logistic-gateway'
+includeBuild 'logistic-stock'
+includeBuild 'logistic-orders'
+includeBuild 'logistic-transport'
+includeBuild 'logistic-finance'
+includeBuild 'logistic-delivery'
+includeBuild 'logistic-claim'
+includeBuild 'logistic-entity'
+includeBuild 'logistic-utils'
+includeBuild 'logistic-users'
