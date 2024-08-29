@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "a56d97d6-eb6f-4d15-a792-0ea9384661fc",
+		"name": "Order",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32429728"
+	},
+	"item": [
+		{
+			"name": "add-order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJTb1hOck41ZlAzNTNFZjZOeVRnY1FEV3R3ZkNDd0hzc1JWdG5aOFZzb3E0In0.eyJleHAiOjE3MjI3MTIzMTEsImlhdCI6MTcyMjcxMjAxMSwiYXV0aF90aW1lIjoxNzIyNzExMzk4LCJqdGkiOiJlNDJiNzI3Mi1kNWQ2LTQ5MTUtYmRjYi0xMjAwY2M0YjMxYmIiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgxODAvcmVhbG1zL3RvZG9hcHAtcmVhbG0iLCJhdWQiOlsicmVhbG0tbWFuYWdlbWVudCIsImFjY291bnQiXSwic3ViIjoiOWNkMzc4OWYtNGY0OC00ZWY2LTgyNTQtODcyMjBiODVkZjRiIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidG9kb2FwcC1jbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiMzRjODAxYmEtNTdiZC00MTNiLWFlNTYtZTNjMzE4MTRhMGZhIiwiYWNyIjoiMCIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLXRvZG9hcHAtcmVhbG0iLCJhZG1pbiIsInVzZXIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJyZWFsbS1tYW5hZ2VtZW50Ijp7InJvbGVzIjpbInZpZXctaWRlbnRpdHktcHJvdmlkZXJzIiwidmlldy1yZWFsbSIsIm1hbmFnZS1pZGVudGl0eS1wcm92aWRlcnMiLCJpbXBlcnNvbmF0aW9uIiwicmVhbG0tYWRtaW4iLCJjcmVhdGUtY2xpZW50IiwibWFuYWdlLXVzZXJzIiwicXVlcnktcmVhbG1zIiwidmlldy1hdXRob3JpemF0aW9uIiwicXVlcnktY2xpZW50cyIsInF1ZXJ5LXVzZXJzIiwibWFuYWdlLWV2ZW50cyIsIm1hbmFnZS1yZWFsbSIsInZpZXctZXZlbnRzIiwidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsIm1hbmFnZS1hdXRob3JpemF0aW9uIiwibWFuYWdlLWNsaWVudHMiLCJxdWVyeS1ncm91cHMiXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJzaWQiOiIzNGM4MDFiYS01N2JkLTQxM2ItYWU1Ni1lM2MzMTgxNGEwZmEiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJ0ZXN0IHRlc3QiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0ZXN0IiwiZ2l2ZW5fbmFtZSI6InRlc3QiLCJmYW1pbHlfbmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAdGVzdC50dSJ9.yZcxqoH3K_QQm6xv_T3xERxZYhrk8OaHaucQ9dOUvUg3ghMlR-1xm0hLuijK8kxGrSpfpmWKRTVnZoRfZhwpBgbR7VpuL3wkGP-xR_BYYo29MvlnRW5ACggRiJ5apmZxCXq59MXNpj_lJdvB_T5DeYTPczpmKHtrvEDv6ipneTl6dzR3Pz3EwWqbjHqXIbcAinniK9vDOJ7vmYO7of-xFUvkAi-MsBUn0oQycf5duNx4hJmtS__szpdgsvRtcZp-EdAupB0A5H90fP_oZQSPQnaZ2voslOfCs_KZPnb8VMvpbYyBH63LajL-kWhUZ5Sh9ffHppAL4s5OeGdSo5OV0w",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"loadPlace\": \"Москва\",\r\n        \"unloadPlace\": \"Санкт-Петербург\",\r\n        \"orderData\": \"2024-08-22\",\r\n        \"planData\": \"2024-08-23\",\r\n        \"cargoId\": \"1\",\r\n        \"count\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8765/logistic-orders/order/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"logistic-orders",
+						"order",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-order",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"cargoId\": \"1\",\r\n    \"loadPlace\": \"Москва\",\r\n    \"unloadPlace\": \"Петрозаводск\",\r\n    \"count\": 3,\r\n    \"orderData\": \"2024-08-22T00:00:00.000+00:00\",\r\n    \"planData\": \"2024-08-23T00:00:00.000+00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8765/logistic-orders/order/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"logistic-orders",
+						"order",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search-order-by-id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8765/logistic-orders/order/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"logistic-orders",
+						"order",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-order",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8765/logistic-orders/order/delete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"logistic-orders",
+						"order",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
